@@ -1,0 +1,73 @@
+{
+    "basic_info": {
+      "name": "Rajiv Srivastava",
+      "titles": [ "Principal Engineering Manager @ Microsoft" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "images/portfolio/myProfile.png"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "ReactJS",
+          "class": "devicon-react-original",
+          "level": "90"
+        },
+        {
+          "name": "Android",
+          "class": "devicon-android-plain",
+          "level": "95"
+        },
+        {
+          "name": "iOS",
+          "class": "devicon-apple-original",
+          "level": "80"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Java",
+          "class": "devicon-java-plain",
+          "level": "95"
+        },
+        {
+          "name": "Nodejs",
+          "class": "devicon-nodejs-plain",
+          "level": "85"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "65"
+        },
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Azure",
+          "class": "devicon-azure-plain",
+          "level": "90"
+        }
+      ]
+    }
+  }

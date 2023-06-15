@@ -1,0 +1,213 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Rajv Srivastava",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Retail",
+        "startDate": "2007",
+        "description": "Developed Point Of Sale Software for Nordstrom",
+        "images": [
+          "images/projects/retail/p1.jpg",
+          "images/projects/retail/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MYSql"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Healthcare",
+        "startDate": "2011",
+        "description": "Developed 2D Visulization software for PET-MRI Scanners",
+        "images": [
+          "images/projects/healthcare/p1.jpg",
+          "images/projects/healthcare/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Travel",
+        "startDate": "2014",
+        "description": "Architected, Developed and Managed Lufthansa's Middleware for API hosting",
+        "images": [
+          "images/projects/travel/p1.jpg",
+          "images/projects/travel/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          }
+        ]
+      },
+      {
+        "title": "Pharmacy",
+        "startDate": "2018",
+        "description": "Walmart's Pharmacy App",
+        "images": [
+          "images/projects/pharmacy/p1.jpg",
+          "images/projects/pharmacy/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "name": "Android",
+            "class": "devicon-android-plain",
+            "level": "95"
+          },
+          {
+            "name": "iOS",
+            "class": "devicon-apple-original",
+            "level": "80"
+          }
+        ]
+      },
+      {
+        "title": "Payments",
+        "startDate": "2021",
+        "description": "PayPal App - Activity module",
+        "images": [
+          "images/projects/payments/p1.jpg",
+          "images/projects/payments/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "name": "Android",
+            "class": "devicon-android-plain",
+            "level": "95"
+          },
+          {
+            "name": "iOS",
+            "class": "devicon-apple-original",
+            "level": "80"
+          }
+        ]
+      },
+      {
+        "title": "B2B",
+        "startDate": "2022",
+        "description": "Microsoft Oulook Mobile add-ins",
+        "images": [
+          "images/projects/b2b/p1.jpg",
+          "images/projects/b2b/p2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "name": "Android",
+            "class": "devicon-android-plain",
+            "level": "95"
+          },
+          {
+            "name": "iOS",
+            "class": "devicon-apple-original",
+            "level": "80"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Microsoft",
+        "title": "Principal Engineering Manager",
+        "years": "03.2022 - present",
+        "mainTech": [
+          "Mobile"
+        ],
+        "technologies": [
+          "Android", "iOS"
+        ]
+      },
+      {
+        "company": "PayPal",
+        "title": "Software Engineering Manager - 2",
+        "years": "11.2021 - 03.2022",
+        "mainTech": [
+          "Mobile", "Web"
+        ],
+        "technologies": [
+          "Android", "iOS", "ReactJS"
+        ]
+      },
+      {
+        "company": "Walmart Labs",
+        "title": "Senior Engineering Manager - 1",
+        "years": "09.2018 - 11.2021",
+        "mainTech": [
+          "Mobile", "Web"
+        ],
+        "technologies": [
+          "Android", "iOS", "ReactJS"
+        ]
+      },
+      {
+        "company": "Amadeus Labs",
+        "title": "Development Manager",
+        "years": "07.2014 - 09.2018",
+        "mainTech": [
+          "Middleware", "Web"
+        ],
+        "technologies": [
+          "Java", "ReactJS"
+        ]
+      },
+      {
+        "company": "GE Healthcare, Juniper Networks, Infosys",
+        "title": "Software Engineer",
+        "years": "10.2006 - 07.2014",
+        "mainTech": [
+          "Web"
+        ],
+        "technologies": [
+          "Java", "Swings", "JSP","PHP","Javascript", "MySql"
+        ]
+      }
+    ]
+  }
