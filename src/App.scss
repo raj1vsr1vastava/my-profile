@@ -156,6 +156,7 @@ header h1 {
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
 	z-index: 0;
+	width: 350px;
 	position: relative;
 }
 
@@ -188,7 +189,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 250px;
 }
 
 .polaroid span {
@@ -260,6 +261,7 @@ header h1 {
 	font-size: 12px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
+	margin-right: 5px;
 	vertical-align: baseline;
 	background-color: #f9f5e9 !important;
 	color: black;
@@ -268,8 +270,11 @@ header h1 {
 }
 
 .vertical-timeline-element-date {
-	padding: 0 !important;
-	margin: 0 !important;
+	font-size: 15px !important;
+	padding: 5px 8px 5px 0px !important;
+	color: black;
+	margin: 5px;
+
 }
 
 @media only screen and (max-width: 1170px) {
@@ -359,7 +364,7 @@ header h1 {
 
 #portfolio {
 	background: #efe1bd;
-	padding-bottom: 5%;
+	padding-bottom: 2%;
 }
 
 .portfolio-item {
@@ -395,20 +400,22 @@ header h1 {
 
 #skills {
 	background: #1F1F1F;
-	min-height: 200px;
+	min-height: 290px;
 	width: 100%;
 	overflow: hidden;
 	padding: 5px 5px auto auto;
 }
 
 .section-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #fff;
 	text-align: center;
+	font-size: 20px;;
+	
 }
 
 .skill-icon {

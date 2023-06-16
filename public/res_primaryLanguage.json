@@ -42,7 +42,7 @@
           "images/projects/healthcare/p1.jpg",
           "images/projects/healthcare/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-java-plain",
@@ -62,7 +62,7 @@
           "images/projects/travel/p1.jpg",
           "images/projects/travel/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-java-plain",
@@ -82,7 +82,7 @@
           "images/projects/pharmacy/p1.jpg",
           "images/projects/pharmacy/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-java-plain",
@@ -108,7 +108,7 @@
           "images/projects/payments/p1.jpg",
           "images/projects/payments/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-java-plain",
@@ -134,7 +134,7 @@
           "images/projects/b2b/p1.jpg",
           "images/projects/b2b/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-java-plain",
@@ -156,6 +156,7 @@
     "experience": [
       {
         "company": "Microsoft",
+        "image": "images/microsoft.png",
         "title": "Principal Engineering Manager",
         "years": "03.2022 - present",
         "mainTech": [
@@ -167,6 +168,7 @@
       },
       {
         "company": "PayPal",
+        "image": "images/paypal.png",
         "title": "Software Engineering Manager - 2",
         "years": "11.2021 - 03.2022",
         "mainTech": [
@@ -178,6 +180,7 @@
       },
       {
         "company": "Walmart Labs",
+        "image": "images/walmart.png",
         "title": "Senior Engineering Manager - 1",
         "years": "09.2018 - 11.2021",
         "mainTech": [
@@ -189,6 +192,7 @@
       },
       {
         "company": "Amadeus Labs",
+        "image": "images/amadeus.png",
         "title": "Development Manager",
         "years": "07.2014 - 09.2018",
         "mainTech": [
@@ -200,6 +204,7 @@
       },
       {
         "company": "GE Healthcare, Juniper Networks, Infosys",
+        "image": "images/ge.png",
         "title": "Software Engineer",
         "years": "10.2006 - 07.2014",
         "mainTech": [

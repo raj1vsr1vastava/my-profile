@@ -37,7 +37,13 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            // icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<img 
+              src={work.image}
+              height="60"
+              width="60"
+              style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+            />}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>

@@ -7,7 +7,7 @@ import vueIcon from "@iconify/icons-logos/vue";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = "images/portfolio/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -49,7 +49,7 @@ class About extends Component {
             <div className="col-md-8 center">
               <div className="col-md-10">
                 <div className="card">
-                  <div className="card-header">
+                  {/* <div className="card-header">
                     <span
                       className="iconify"
                       data-icon="emojione:red-circle"
@@ -67,13 +67,13 @@ class About extends Component {
                       data-icon="twemoji:green-circle"
                       data-inline="false"
                     ></span>
-                  </div>
+                  </div> */}
                   <div
                     className="card-body font-trebuchet text-justify ml-3 mr-3"
                     style={{
                       height: "auto",
                       fontSize: "132%",
-                      lineHeight: "200%",
+                      lineHeight: "500%",
                     }}
                   >
                     <br />
