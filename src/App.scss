@@ -35,7 +35,7 @@ html {
 
 header {
 	position: relative;
-	height: 450px;
+	height: 400px !important;
 	min-height: 400px;
 	width: 100%;
 	background-size: cover;
@@ -47,8 +47,8 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding-top: 20px;
-	padding-bottom: 0;
+	padding-top: 80px;
+	padding-bottom: 0px;
 }
 
 header .nav {
@@ -106,7 +106,8 @@ header h1 {
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 2px solid #D7CAAA;
+	height: auto;
 }
 
 .slider-tab {
@@ -124,12 +125,13 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	// background: #fff;
+	background-color: #efe1bd;
 	overflow: hidden;
 }
 
 #about h1 {
-	padding-top: 5%;
+	padding-top: 3%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
@@ -189,14 +191,15 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 250px;
+	width: 300px;
+	max-width: 300px;
 }
 
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	margin: 35px 75px 30px 75px;
+	padding: 15px 15px 30px 15px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -251,7 +254,7 @@ header h1 {
 	padding: 5px 8px 5px 8px !important;
 	margin-right: 5px;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #efe1bd !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -261,20 +264,30 @@ header h1 {
 	font-size: 12px !important;
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
-	margin-right: 5px;
+	margin-right: 2px;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #efe1bd !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .vertical-timeline-element-date {
-	font-size: 15px !important;
+	font-size: 18px !important;
 	padding: 5px 8px 5px 0px !important;
 	color: black;
 	margin: 5px;
+}
 
+.vertical-timeline-element-image {
+	cursor: pointer;
+	// margin-bottom: 0;
+	// padding-bottom: 0;
+	position: relative;
+	height: 60px;
+	width: 60px;
+	min-width: 20px;
+	min-height: 20px;
 }
 
 @media only screen and (max-width: 1170px) {
@@ -334,7 +347,7 @@ header h1 {
 
 .modal-close {
 	text-align: right;
-	padding: 10px 15px 10px 15px;
+	padding: 5px 15px 5px 5px;
 	cursor: pointer;
 }
 
@@ -347,7 +360,7 @@ header h1 {
 	text-align: justify;
 	padding: 5px 5px 0 5px;
 	margin-bottom: 20px;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 .awssld__next {
@@ -400,7 +413,7 @@ header h1 {
 
 #skills {
 	background: #1F1F1F;
-	min-height: 290px;
+	min-height: 300px;
 	width: 100%;
 	overflow: hidden;
 	padding: 5px 5px auto auto;

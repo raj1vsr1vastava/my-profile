@@ -2,9 +2,11 @@ import React, { Component } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
+  
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+// import ProjectDetailsModal from "./ProjectDetailsModal";
 
 class Experience extends Component {
   render() {
@@ -12,15 +14,15 @@ class Experience extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        // const mainTechnologies = work.mainTech;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
-          return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
-              {technology}
-            </Badge>
-          );
-        });
+        // var mainTech = mainTechnologies.map((technology, i) => {
+        //   return (
+        //     <Badge pill className="main-badge mr-2 mb-2" key={i}>
+        //       {technology}
+        //     </Badge>
+        //   );
+        // });
         var tech = technologies.map((technology, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
@@ -33,36 +35,43 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#fff",
               color: "#fff",
               textAlign: "center",
             }}
-            // icon={<i className="fab fa-angular experience-icon"></i>}
-            icon={<img 
-              src={work.image}
-              height="60"
-              width="60"
-              style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-            />}
+            icon={
+              <a href={work.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  className="vertical-timeline-element-image"
+                  src={work.image}
+                  alt="Company"
+                  // height="60"
+                  // width="60"
+                  // style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                />
+            </a>
+            }
             key={i}
           >
-            <div style={{ textAlign: "left", marginBottom: "4px" }}>
+            {/* <div style={{ textAlign: "left", marginBottom: "4px" }}>
               {mainTech}
-            </div>
+            </div> */}
 
             <h3
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
             >
-              {work.title}
+              {work.company}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
               style={{ textAlign: "left" }}
             >
-              {work.company}
+              {work.title}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div style={{ textAlign: "left", marginTop: "15px" }}>
+              {tech}
+            </div>
           </VerticalTimelineElement>
         );
       });

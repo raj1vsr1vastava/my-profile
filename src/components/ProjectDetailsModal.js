@@ -11,15 +11,15 @@ class ProjectDetailsModal extends Component {
       const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
-      var url = this.props.data.url;
+      // var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
             <li className="list-inline-item mx-3" key={i}>
               <span>
                 <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                  <i className={icons.class} style={{ fontSize: "250%" }}>
+                    <p className="text-center" style={{ fontSize: "50%" }}>
                       {icons.name}
                     </p>
                   </i>
@@ -33,6 +33,29 @@ class ProjectDetailsModal extends Component {
             return <div key={i} data-src={elem} />;
           });
         }
+
+        if(this.props.data.description){
+          var descript = description.map((desc, i) => {
+            return (<div>
+                      <p style={{ textAlign: "left" }}>
+                        {desc}
+                      </p>
+            </div>
+              // <li className="list-inline-item mx-3">
+              //   {/* <span> */}
+              //     <div className="text-center" key={i} data-src={desc}>
+              //       {/* <i className={icons.class} style={{ fontSize: "250%" }}> */}
+              //         {/* <p className="text-center" style={{ fontSize: "50%" }}> */}
+                      
+              //         {/* </p> */}
+              //       {/* </i> */}
+              //     </div>
+              //   {/* </span> */}
+              // </li>
+            );
+          });
+        }
+
       }
     }
     return (
@@ -47,39 +70,10 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
-            <div className="slider-tab">
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="emojione:red-circle"
-                data-inline="false"
-                style={{ marginLeft: "5px" }}
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:yellow-circle"
-                data-inline="false"
-              ></span>{" "}
-              &nbsp;{" "}
-              <span
-                className="iconify slider-iconfiy"
-                data-icon="twemoji:green-circle"
-                data-inline="false"
-              ></span>
-            </div>
-            <AwesomeSlider
-              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
-              animation="scaleOutAnimation"
-              className="slider-image"
-            >
-              {img}
-            </AwesomeSlider>
-          </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
               {title}
-              {url ? (
+              {/* {url ? (
                 <a
                   href={url}
                   target="_blank"
@@ -91,12 +85,25 @@ class ProjectDetailsModal extends Component {
                     style={{ marginLeft: "10px" }}
                   ></i>
                 </a>
-              ) : null}
+              ) : null} */}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description">
+              {descript}
+            </p>
             <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+              <ul className="list-inline mx-auto">
+                {tech}
+              </ul>
             </div>
+          </div>
+          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+            <AwesomeSlider
+              cssModule={[AwesomeSliderStyles, AwesomeSliderStyles2]}
+              animation="scaleOutAnimation"
+              className="slider-image"
+            >
+              {img}
+            </AwesomeSlider>
           </div>
         </div>
       </Modal>

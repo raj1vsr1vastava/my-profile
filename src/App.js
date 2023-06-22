@@ -6,6 +6,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Home from "./components/Home";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Experiences from "./components/Experience";
 
 class App extends Component {
 
@@ -94,6 +97,13 @@ class App extends Component {
             element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
+            />}>
+          </Route>
+          <Route 
+            path="/projects" 
+            element={<Projects
+              projectInfo={this.state.resumeData.projects}
+              // sharedBasicInfo={this.state.sharedData.basic_info}
             />}>
           </Route>
         </Routes>

@@ -1,7 +1,11 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Rajv Srivastava",
+      "description_header": "Hi 👋 I'm Rajiv Srivastava.",
+      "description": ["Trying to make sense of software and hardware by developing rich applications,",
+      " mentoring some great minds and learning from awesome industry leaders leading to an enriching experience in Mobile application (iOS and Android), Java, Javascript,",
+      " Webservices (SOAP & ReST), Microservice Architecture, Docker, Azure PaaS, NoSql, Middleware SOA technologies ",
+      " and self motivated with Python, Android development and machine learning. Aiming for crash proof highly scalable,",
+      " fault tolerance applications with core focus on DevSecOps"],
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,76 +15,13 @@
     },
     "projects": [
       {
-        "title": "Retail",
-        "startDate": "2007",
-        "description": "Developed Point Of Sale Software for Nordstrom",
+        "title": "Microsoft - Office",
+        "startDate": "2022",
+        "description": ["1. Successfully delivered multiple Platform APIs for Oulook Mobile add-ins for 1P and 3P partners",
+                         "2. Led and delivered 1P platform solutions for Word, Excel and Pwerpoint for new features developed separately and integrated with WXP apps"],
         "images": [
-          "images/projects/retail/p1.jpg",
-          "images/projects/retail/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-java-plain",
-            "name": "Java"
-          },
-          {
-            "class": "devicon-mysql-plain",
-            "name": "MYSql"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Healthcare",
-        "startDate": "2011",
-        "description": "Developed 2D Visulization software for PET-MRI Scanners",
-        "images": [
-          "images/projects/healthcare/p1.jpg",
-          "images/projects/healthcare/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-java-plain",
-            "name": "Java"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "Travel",
-        "startDate": "2014",
-        "description": "Architected, Developed and Managed Lufthansa's Middleware for API hosting",
-        "images": [
-          "images/projects/travel/p1.jpg",
-          "images/projects/travel/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-java-plain",
-            "name": "Java"
-          },
-          {
-            "class": "devicon-react-plain",
-            "name": "ReactJS"
-          }
-        ]
-      },
-      {
-        "title": "Pharmacy",
-        "startDate": "2018",
-        "description": "Walmart's Pharmacy App",
-        "images": [
-          "images/projects/pharmacy/p1.jpg",
-          "images/projects/pharmacy/p2.jpg"
+          "images/projects/b2b/p1.png",
+          "images/projects/b2b/p2.jpg"
         ],
         "url": "",
         "technologies": [
@@ -101,9 +42,10 @@
         ]
       },
       {
-        "title": "Payments",
+        "title": "PayPal - Payments",
         "startDate": "2021",
-        "description": "PayPal App - Activity module",
+        "description": ["1. Achieved an enriching Customer Experience for Activity module in Paypal's iOS and Android app by doing tech optimizations  ",
+                        "2. Successfully delivered the front end developement from scratch for Document Center (self serve tax docs download). Its live in US."],
         "images": [
           "images/projects/payments/p1.jpg",
           "images/projects/payments/p2.jpg"
@@ -127,12 +69,13 @@
         ]
       },
       {
-        "title": "B2B",
-        "startDate": "2022",
-        "description": "Microsoft Oulook Mobile add-ins",
+        "title": "Walmart Labs - Pharmacy",
+        "startDate": "2018",
+        "description": [" 1. Led the execution and delivery of the Digital/Online Pharmacy (android, iOS and Web app) features for digital adoption and usage in US market  ",
+        " 2.Successfully delivered 3 new features during the COVID-19 and a brand new feature for Immmunization for customers with E2E FE and BE development with deployment on Azure"],
         "images": [
-          "images/projects/b2b/p1.jpg",
-          "images/projects/b2b/p2.jpg"
+          "images/projects/pharmacy/p1.jpg",
+          "images/projects/pharmacy/p2.jpg"
         ],
         "url": "",
         "technologies": [
@@ -151,6 +94,75 @@
             "level": "80"
           }
         ]
+      },
+      {
+        "title": "Amadeus - Travel",
+        "startDate": "2014",
+        "description": ["1.Designed, developed and rearchitected the Lufthansa middleware integrations with Amadeus platform by bringing in 40% time to market efficiency in deployments of webservices by adapting automations  ",
+                        "2.Lead the DevOps practice and was accountable for a suite of Amadeus Deployment tools with full ownership in Bangalore.  ",
+                        "3. Accomplished 30% in tech debt reduction within 6 months of joining the team leading to better products.",
+                        "4. Managed a global team of 13 in Bangalore and 6 in Erding (Germany) with 3 major products in scope."],
+        "images": [
+          "images/projects/travel/p1.jpg",
+          "images/projects/travel/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "ReactJS"
+          }
+        ]
+      },
+      {
+        "title": "GE Healthcare - PET/MRI",
+        "startDate": "2011",
+        "description": ["1. Architected, designed and developed the PET Graphical Prescription application for PET -MRI scanners.  ",
+                        "2. Accomplished a new communication model development called GEOCOMM (GE Object Communication) by developing a framework based on Java's serialization and deserialization to communicate the data between Java and C++ components within the system"],
+        "images": [
+          "images/projects/healthcare/p1.jpg",
+          "images/projects/healthcare/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
+        "title": "Infosys - Retail",
+        "startDate": "2007",
+        "description": ["1. Designed, developed, and supported in production the Point Of Sale suite of applications for Nordstrom.  ",
+                        "2. Accomplished CIO award from Nordstrom for handling their legacy Mainframe application by successfully resolving a major bug leading to wrong numbers on the revenue during Sale period."],
+        "images": [
+          "images/projects/retail/p1.jpg",
+          "images/projects/retail/p2.jpg"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MYSql"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
       }
     ],
     "experience": [
@@ -158,22 +170,22 @@
         "company": "Microsoft",
         "image": "images/microsoft.png",
         "title": "Principal Engineering Manager",
-        "years": "03.2022 - present",
-        "mainTech": [
-          "Mobile"
-        ],
+        "years": "Mar/2022 - present",
+        "mainTech": [],
+        "url": "https://www.microsoft.com/",
         "technologies": [
-          "Android", "iOS"
+          "Android", "iOS", "C#", "C++", "Javascript"
         ]
       },
       {
         "company": "PayPal",
         "image": "images/paypal.png",
         "title": "Software Engineering Manager - 2",
-        "years": "11.2021 - 03.2022",
+        "years": "Nov/2021 - Mar/2022",
         "mainTech": [
           "Mobile", "Web"
         ],
+        "url": "https://www.paypal.com/in/home",
         "technologies": [
           "Android", "iOS", "ReactJS"
         ]
@@ -182,36 +194,39 @@
         "company": "Walmart Labs",
         "image": "images/walmart.png",
         "title": "Senior Engineering Manager - 1",
-        "years": "09.2018 - 11.2021",
+        "years": "Sept/2018 - Nov/2021",
         "mainTech": [
           "Mobile", "Web"
         ],
+        "url": "https://www.walmart.com/",
         "technologies": [
-          "Android", "iOS", "ReactJS"
+          "Android", "iOS", "ReactJS", "Azure", "Kubernetes"
         ]
       },
       {
         "company": "Amadeus Labs",
         "image": "images/amadeus.png",
         "title": "Development Manager",
-        "years": "07.2014 - 09.2018",
+        "years": "Jul/2014 - Sept/2018",
         "mainTech": [
           "Middleware", "Web"
         ],
+        "url": "https://amadeus.com/",
         "technologies": [
-          "Java", "ReactJS"
+          "Java", "ReactJS", "Middleware"
         ]
       },
       {
         "company": "GE Healthcare, Juniper Networks, Infosys",
         "image": "images/ge.png",
         "title": "Software Engineer",
-        "years": "10.2006 - 07.2014",
+        "years": "Oct/2006 - Jul/2014",
         "mainTech": [
           "Web"
         ],
+        "url": "https://www.gehealthcare.in/",
         "technologies": [
-          "Java", "Swings", "JSP","PHP","Javascript", "MySql"
+          "Java", "Swings", "JSP","PHP","Javascript", "MySql","KSH"
         ]
       }
     ]
