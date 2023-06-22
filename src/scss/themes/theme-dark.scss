@@ -33,10 +33,18 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: black;
       h1 {
          color: white;
       }
+   }
+
+   .title-container {
+      height: auto;
+      font: 18px/24px 'opensans-bold', sans-serif;
+      letter-spacing: 2px;
+      color: #fff;
+      text-align: center;
    }
 
    #about {
@@ -76,6 +84,7 @@ body[data-theme="dark"] {
       .experience-badge {
          background: #919191 !important;
          color: white;
+         font-size: 14px !important;
       }
 
       .main-badge {

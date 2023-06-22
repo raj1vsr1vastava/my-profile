@@ -170,11 +170,11 @@
         "company": "Microsoft",
         "image": "images/microsoft.png",
         "title": "Principal Engineering Manager",
-        "years": "Mar/2022 - present",
-        "mainTech": [],
+        "years": "Mar/2022 - Present",
+        "tenure": "",
         "url": "https://www.microsoft.com/",
         "technologies": [
-          "Android", "iOS", "C#", "C++", "Javascript"
+          "Copilot - OpenAI","Android", "iOS", "C#", "C++", "Javascript"
         ]
       },
       {
@@ -182,9 +182,7 @@
         "image": "images/paypal.png",
         "title": "Software Engineering Manager - 2",
         "years": "Nov/2021 - Mar/2022",
-        "mainTech": [
-          "Mobile", "Web"
-        ],
+        "tenure": "1.5 years",
         "url": "https://www.paypal.com/in/home",
         "technologies": [
           "Android", "iOS", "ReactJS"
@@ -195,9 +193,7 @@
         "image": "images/walmart.png",
         "title": "Senior Engineering Manager - 1",
         "years": "Sept/2018 - Nov/2021",
-        "mainTech": [
-          "Mobile", "Web"
-        ],
+        "tenure": "3 years",
         "url": "https://www.walmart.com/",
         "technologies": [
           "Android", "iOS", "ReactJS", "Azure", "Kubernetes"
@@ -208,9 +204,7 @@
         "image": "images/amadeus.png",
         "title": "Development Manager",
         "years": "Jul/2014 - Sept/2018",
-        "mainTech": [
-          "Middleware", "Web"
-        ],
+        "tenure": "4 years",
         "url": "https://amadeus.com/",
         "technologies": [
           "Java", "ReactJS", "Middleware"
@@ -221,12 +215,10 @@
         "image": "images/ge.png",
         "title": "Software Engineer",
         "years": "Oct/2006 - Jul/2014",
-        "mainTech": [
-          "Web"
-        ],
+        "tenure": "8 years",
         "url": "https://www.gehealthcare.in/",
         "technologies": [
-          "Java", "Swings", "JSP","PHP","Javascript", "MySql","KSH"
+          "Java", "Swings", "JSP","PHP","Javascript", "MySql","ksh"
         ]
       }
     ]
